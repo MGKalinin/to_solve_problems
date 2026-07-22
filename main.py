@@ -1,18 +1,13 @@
-import sys
+# https://cscircles.cemc.uwaterloo.ca/visualize
 
-# Тема 2: Множества и словари
-# 6. Плюсы, минусы и вопросы
+import sys
+import heapq
+from collections import deque
+
+#
 
 def main():
-    """
-    Пример ввода и вывода числа n, где -10^9 < n < 10^9:
-    n = int(input())
-    print(n)
-    """
-    """
-    реальная разность=(макс. строка)−(мин. столбец)−2
-    """
-    pass
+
 
 
 if __name__ == '__main__':

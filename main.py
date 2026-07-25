@@ -7,17 +7,13 @@ def main():
     n = int(input())
     print(n)
     """
-    # a=int(input())
-    # b=int(input())
-    # c=int(input())
-    a=3
-    b=4
-    c=5
-
-    if (a+b)>c and (a+c)>b and (b+c)>a:
-        print('YES')
-    else:
-        print('NO')
+    temp=list(map(int,input().split()))
+    # temp=[1 ,5 ,1 ,5 ,1]
+    count=0
+    for i in range(1,len(temp)-1):
+        if temp[i]>temp[i-1] and temp[i]>temp[i+1]:
+            count+=1
+    print(count)
 
 
 if __name__ == '__main__':

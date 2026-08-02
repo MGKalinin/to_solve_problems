@@ -1,6 +1,7 @@
 import sys
 
-#6. OpenCalculator
+#7. Количество слов в тексте
+
 
 def main():
     """
@@ -8,13 +9,8 @@ def main():
     n = int(input())
     print(n)
     """
-    first = set(map(str,input().split()))
-    second = set([i for i in input()])
-    # print(first)
-    # print(second)
-
-    ans=second-first
-    print(len(ans))
+    text= set(sys.stdin.read().split())
+    print(len(text))
 
 if __name__ == '__main__':
     main()

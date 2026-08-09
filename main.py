@@ -1,6 +1,6 @@
 import sys
 
-#7. Количество слов в тексте
+#8. Возрастает ли список?
 
 
 def main():
@@ -9,8 +9,21 @@ def main():
     n = int(input())
     print(n)
     """
-    text= set(sys.stdin.read().split())
-    print(len(text))
+    # text= set(sys.stdin.read().split())
+    # print(len(text))
+    temp = list(map(int, input().split()))
+    # print(min(temp))
+
+    # temp=[2,2,2]
+    count=1
+    for i in range(len(temp)-1):
+        if temp[i]<temp[i+1]:
+            # print(temp[i], temp[i+1])
+            count+=1
+            # print(count)
+
+    print("YES" if count==len(temp) else "NO")
+
 
 if __name__ == '__main__':
     main()

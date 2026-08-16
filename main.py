@@ -1,7 +1,6 @@
 import sys
 
-#8. Возрастает ли список?
-
+#9. Умножай и транспонируй!
 
 def main():
     """
@@ -9,20 +8,24 @@ def main():
     n = int(input())
     print(n)
     """
-    # text= set(sys.stdin.read().split())
-    # print(len(text))
-    temp = list(map(int, input().split()))
-    # print(min(temp))
+    # n,m,k = map(int,input().split())#строки,столбцы/строки столбцы
+    n,m,k=6,1,4
+    # a = [[0]*m for _ in range(n)]
+    # b = [[0]*k for _ in range(m)]
+    a = [[6], [1], [3], [3], [1], [9]]
+    b = [[10, 2, 0, 3]]
+    # for i in range(n):
+    #     a[i] = list(map(int,input().split()))
+    # for i in range(m):
+    #     b[i] = list(map(int,input().split()))
+    ans = [[sum(a[i][p] * b[p][j] for p in range(m)) #умножение
+           for i in range(n)]
+           for j in range(k)]
+    temp = [[ans[i][j] for i in range(len(ans))]
+           for j in range(len(ans[0]))]
 
-    # temp=[2,2,2]
-    count=1
-    for i in range(len(temp)-1):
-        if temp[i]<temp[i+1]:
-            # print(temp[i], temp[i+1])
-            count+=1
-            # print(count)
-
-    print("YES" if count==len(temp) else "NO")
+    print(ans)
+    print(temp)
 
 
 if __name__ == '__main__':

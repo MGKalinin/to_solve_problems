@@ -18,14 +18,7 @@ def main():
     #     a[i] = list(map(int,input().split()))
     # for i in range(m):
     #     b[i] = list(map(int,input().split()))
-    ans = [[sum(a[i][p] * b[p][j] for p in range(m)) #умножение
-           for i in range(n)]
-           for j in range(k)]
-    temp = [[ans[i][j] for i in range(len(ans))]
-           for j in range(len(ans[0]))]
 
-    print(ans)
-    print(temp)
 
 
 if __name__ == '__main__':

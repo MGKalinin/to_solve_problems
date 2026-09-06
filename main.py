@@ -1,7 +1,7 @@
 import sys
 import math
 
-#9. Умножай и транспонируй!
+#12. Ближайшее число
 
 def main():
     """
@@ -9,9 +9,14 @@ def main():
     n = int(input())
     print(n)
     """
-    a,b = map(int,input().split())
-    print(math.gcd(a,b))
-    print(math.lcm(a,b))
+    # n = int(input())
+    # temp = list(map(int,input().split()))
+    # x = int(input())
+    n = 5
+    temp = [-10 ,-7 ,-3 ,-1 ,0]
+    x = -6
+
+
 
 if __name__ == '__main__':
     main()

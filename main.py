@@ -1,7 +1,9 @@
 import sys
 import math
+import numpy as np
 
-# A. Правильная скобочная последовательность
+
+# 611. Умножай и транспонируй!
 
 def main():
     """
@@ -13,7 +15,7 @@ def main():
     # temp = input().split()
     # x = int(input())
     # n = 5
-    temp = ['([)]']
+    temp = [input().strip()]
     # answer = temp
     # for c in temp[0]:
     #     print(c)

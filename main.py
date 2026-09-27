@@ -1,9 +1,11 @@
 import sys
 import math
+from collections import Counter
+
 import numpy as np
 
 
-# 611. Умножай и транспонируй!
+# 69. Клавиатура
 
 def main():
     """
@@ -11,48 +13,28 @@ def main():
     n = int(input())
     print(n)
     """
-    # n = int(input())
-    # temp = input().split()
-    # x = int(input())
-    # n = 5
-    temp = [input().strip()]
-    # answer = temp
-    # for c in temp[0]:
-    #     print(c)
-    # x = -6
-    # основная идея пройти по строке-проверить начиная с открытой скобки - удалять из стека
-    stack = []
-    pattern = {')':'(',
-               ']':'[',
-               '}':'{'}
+    n = int(input())# количество клавиш
+    k = list(map(int,input().split())) # количество выдерживаемых нажатий i-й клавиши
+    v = int(input()) # общее количество нажатий клавиш
+    temp = list(map(int,input().split())) # последовательность нажатых клавиш
 
-    if len(temp[0]) == 1:
-        print('no')
-        return
+    # n= 5
+    # k = [1, 50, 3, 4, 3]
+    # v = 16
+    # temp = [1, 2, 3, 4, 5, 1, 3, 3, 4, 5, 5, 5, 5 ,5 ,4 ,5]
+    dict_temp = Counter(temp) # {5: 7, 3: 3, 4: 3, 1: 2, 2: 1}
+    sort_dict_temp = dict(sorted(dict_temp.items())) # {1: 2, 2: 1, 3: 3, 4: 3, 5: 7}
 
-    if len(temp[0])%2 != 0:
-        print("no")
-        return
+    dict_k = {} # {1: 1, 2: 50, 3: 3, 4: 4, 5: 3}
+    for i,val in enumerate(k):
+        dict_k[i+1]=val
 
-    for ch in temp[0]:
-        # print(ch)
-        if ch == '(' or ch == '[' or ch == '{':
-            # print(ch)
-            stack.append(ch)
-
-        elif ch == ')' or ch == ']' or ch == '}':
-            if not stack or stack[-1] != pattern[ch]:
-                print('no')
-                return
-            stack.pop()
-
-
-    if len(stack) == 0:
-        print('yes')
-    else:
-        print('no')
-
-
+    for key in sort_dict_temp:# пройти циклом и сравнить
+        # если значение ключа sort_dict_temp меньше либо равно dict_k -вывести NO
+        if sort_dict_temp[key] > dict_k[key]:
+            print("YES")
+        else:
+            print("NO")
 
 
 if __name__ == '__main__':

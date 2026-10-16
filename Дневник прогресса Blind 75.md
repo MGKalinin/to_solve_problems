@@ -55,11 +55,11 @@
 
 ## Two Pointers — 3
 
-| № | Задача | Сложность | Статус | Дата | Степень помощи | Повторить | Заметка |
-|:--:|:--|:--:|:--|:--:|:--|:--:|:--|
-| 9 | [Valid Palindrome](https://neetcode.io/problems/is-palindrome/question?list=blind75) | 🟢 Лёгкая | Решено локально | 15.10.2026 | намёк | да | Фильтровать буквы и цифры через `isalnum()`, затем сравнить с разворотом. |
-| 10 | [3Sum](https://neetcode.io/problems/three-integer-sum/question?list=blind75) | 🟡 Средняя | Не начата |  |  |  |  |
-| 11 | [Container With Most Water](https://neetcode.io/problems/max-water-container/question?list=blind75) | 🟡 Средняя | Не начата |  |  |  |  |
+| № | Задача | Сложность | Статус    | Дата | Степень помощи | Повторить | Заметка                           |
+|:--:|:--|:--:|:----------|:----:|:---------------|:---------:|:----------------------------------|
+| 9 | [Valid Palindrome](https://neetcode.io/problems/is-palindrome/question?list=blind75) | 🟢 Лёгкая | Не начата |      |                |           |                                   |
+| 10 | [3Sum](https://neetcode.io/problems/three-integer-sum/question?list=blind75) | 🟡 Средняя | in progress          |  ✗ 15.10.2026    |                |    да     | не понял как реализовать алгоритм |
+| 11 | [Container With Most Water](https://neetcode.io/problems/max-water-container/question?list=blind75) | 🟡 Средняя | Не начата |      |                |           |                                   |
 
 ## Sliding Window — 4
 
@@ -133,14 +133,14 @@
 
 ## Graphs — 6
 
-| № | Задача | Сложность | Статус      |    Дата     | Степень помощи | Повторить | Заметка |
-|:--:|:--|:--:|:------------|:-----------:|:--|:--:|:--|
-| 42 | [Number of Islands](https://neetcode.io/problems/count-number-of-islands/question?list=blind75) | 🟡 Средняя | in progress | ✗ 15.10.2026 | парное кодирование | да | BFS: очередь и `visited` хранят координаты; локальный пример пройден. |
-| 43 | [Clone Graph](https://neetcode.io/problems/clone-graph/question?list=blind75) | 🟡 Средняя | Не начата   |             |  |  |  |
-| 44 | [Pacific Atlantic Water Flow](https://neetcode.io/problems/pacific-atlantic-water-flow/question?list=blind75) | 🟡 Средняя | Не начата   |             |  |  |  |
-| 45 | [Course Schedule](https://neetcode.io/problems/course-schedule/question?list=blind75) | 🟡 Средняя | Не начата   |             |  |  |  |
-| 46 | [Graph Valid Tree](https://neetcode.io/problems/valid-tree/question?list=blind75) | 🟡 Средняя | Не начата   |             |  |  |  |
-| 47 | [Number of Connected Components In An Undirected Graph](https://neetcode.io/problems/count-connected-components/question?list=blind75) | 🟡 Средняя | Не начата   |             |  |  |  |
+| № | Задача | Сложность | Статус      |              Дата              | Степень помощи                 | Повторить | Заметка                                      |
+|:--:|:--|:--:|:------------|:------------------------------:|:-------------------------------|:--:|:---------------------------------------------|
+| 42 | [Number of Islands](https://neetcode.io/problems/count-number-of-islands/question?list=blind75) | 🟡 Средняя | in progress | ✗ 15.10.2026 <br> ✗ 16.10.2026 | с подсказками ,2/3 сам написал | да | BFS:цикл направлениям берёт пару направление |
+| 43 | [Clone Graph](https://neetcode.io/problems/clone-graph/question?list=blind75) | 🟡 Средняя | Не начата   |                                |                                |  |                                              |
+| 44 | [Pacific Atlantic Water Flow](https://neetcode.io/problems/pacific-atlantic-water-flow/question?list=blind75) | 🟡 Средняя | Не начата   |                                |                                |  |                                              |
+| 45 | [Course Schedule](https://neetcode.io/problems/course-schedule/question?list=blind75) | 🟡 Средняя | Не начата   |                                |                                |  |                                              |
+| 46 | [Graph Valid Tree](https://neetcode.io/problems/valid-tree/question?list=blind75) | 🟡 Средняя | Не начата   |                                |                                |  |                                              |
+| 47 | [Number of Connected Components In An Undirected Graph](https://neetcode.io/problems/count-connected-components/question?list=blind75) | 🟡 Средняя | Не начата   |                                |                                |  |                                              |
 
 ## Advanced Graphs — 1
 

@@ -11,7 +11,7 @@ NeetCode 150 — это исходный Blind 75 и ещё 75 задач. Тр�
 - Рабочий цикл: **две лёгкие задачи → одна задача текущего более сложного паттерна**.
 - Сложную задачу бери после нескольких задач того же раздела и не более одной за учебную сессию.
 - После решения с разбором переходи дальше, но ставь повтор через 3–7 дней.
-- В текущем составе: **28 лёгких, 101 средняя и 21 сложная задача**. Лёгкие здесь служат разминкой и закреплением, а не отдельной обязательной очередью.
+- В текущем составе: **30 лёгких, 101 средняя и 21 сложная задача**. Лёгкие здесь служат разминкой и закреплением, а не отдельной обязательной очередью.
 
 ## Как вести статус
 
@@ -37,7 +37,7 @@ NeetCode 150 — это исходный Blind 75 и ещё 75 задач. Тр�
 | Heap / Priority Queue | 7 | 2 | 4 | 1 |
 | Backtracking | 10 | 0 | 9 | 1 |
 | Tries | 3 | 0 | 2 | 1 |
-| Graphs | 13 | 0 | 12 | 1 |
+| Graphs | 15 | 2 | 12 | 1 |
 | Advanced Graphs | 6 | 0 | 3 | 3 |
 | 1-D Dynamic Programming | 12 | 2 | 10 | 0 |
 | 2-D Dynamic Programming | 11 | 0 | 7 | 4 |
@@ -45,7 +45,7 @@ NeetCode 150 — это исходный Blind 75 и ещё 75 задач. Тр�
 | Intervals | 6 | 1 | 4 | 1 |
 | Math & Geometry | 8 | 2 | 6 | 0 |
 | Bit Manipulation | 7 | 5 | 2 | 0 |
-| **Итого** | **150** | **28** | **101** | **21** |
+| **Итого** | **152** | **30** | **101** | **21** |
 
 ## Arrays & Hashing — 9
 
@@ -176,23 +176,25 @@ NeetCode 150 — это исходный Blind 75 и ещё 75 задач. Тр�
 | 78 | [Design Add And Search Words Data Structure](https://neetcode.io/problems/design-word-search-data-structure/question?list=neetcode150) | 🟡 Средняя | Не начата |  |  |  |  |
 | 79 | [Word Search II](https://neetcode.io/problems/search-for-word-ii/question?list=neetcode150) | 🔴 Сложная | Не начата |  |  |  |  |
 
-## Graphs — 13
+## Graphs — 15
 
-| № | Задача | Сложность | Статус | Дата | Степень помощи | Повторить | Заметка |
-|:--:|:--|:--:|:--|:--:|:--|:--:|:--|
-| 80 | [Number of Islands](https://neetcode.io/problems/count-number-of-islands/question?list=neetcode150) | 🟡 Средняя | in progress | ✗ 15.10.2026 <br> ✗ 16.10.2026 | с подсказками ,2/3 сам написал | да | BFS:цикл направлениям берёт пару направление |
-| 81 | [Max Area of Island](https://neetcode.io/problems/max-area-of-island/question?list=neetcode150) | 🟡 Средняя | Не начата |  |  |  |  |
-| 82 | [Clone Graph](https://neetcode.io/problems/clone-graph/question?list=neetcode150) | 🟡 Средняя | Не начата |  |  |  |  |
-| 83 | [Walls And Gates](https://neetcode.io/problems/islands-and-treasure/question?list=neetcode150) | 🟡 Средняя | Не начата |  |  |  |  |
-| 84 | [Rotting Oranges](https://neetcode.io/problems/rotting-fruit/question?list=neetcode150) | 🟡 Средняя | Не начата |  |  |  |  |
-| 85 | [Pacific Atlantic Water Flow](https://neetcode.io/problems/pacific-atlantic-water-flow/question?list=neetcode150) | 🟡 Средняя | Не начата |  |  |  |  |
-| 86 | [Surrounded Regions](https://neetcode.io/problems/surrounded-regions/question?list=neetcode150) | 🟡 Средняя | Не начата |  |  |  |  |
-| 87 | [Course Schedule](https://neetcode.io/problems/course-schedule/question?list=neetcode150) | 🟡 Средняя | Не начата |  |  |  |  |
-| 88 | [Course Schedule II](https://neetcode.io/problems/course-schedule-ii/question?list=neetcode150) | 🟡 Средняя | Не начата |  |  |  |  |
-| 89 | [Graph Valid Tree](https://neetcode.io/problems/valid-tree/question?list=neetcode150) | 🟡 Средняя | Не начата |  |  |  |  |
-| 90 | [Number of Connected Components In An Undirected Graph](https://neetcode.io/problems/count-connected-components/question?list=neetcode150) | 🟡 Средняя | Не начата |  |  |  |  |
-| 91 | [Redundant Connection](https://neetcode.io/problems/redundant-connection/question?list=neetcode150) | 🟡 Средняя | Не начата |  |  |  |  |
-| 92 | [Word Ladder](https://neetcode.io/problems/word-ladder/question?list=neetcode150) | 🔴 Сложная | Не начата |  |  |  |  |
+| № | Задача | Сложность | Статус |                      Дата                      | Степень помощи                  | Повторить | Заметка |
+|:--:|:--|:--:|:--|:----------------------------------------------:|:--------------------------------|:--:|:--|
+| 80 | [Number of Islands](https://neetcode.io/problems/count-number-of-islands/question?list=neetcode150) | 🟡 Средняя | in progress | ✗ 15.10.2026 <br> ✗ 16.10.2026<br>✗ 18.10.2026 | с подсказками ,мелкие подсказки | да |  |
+| 80.1 | [Flood Fill](https://neetcode.io/problems/flood-fill/question) | 🟢 Лёгкая | Не начата |  |  |  | BFS по сетке |
+| 80.2 | [Island Perimeter](https://neetcode.io/problems/island-perimeter/question?list=neetcode250) | 🟢 Лёгкая | Не начата |  |  |  | Решить через BFS |
+| 81 | [Max Area of Island](https://neetcode.io/problems/max-area-of-island/question?list=neetcode150) | 🟡 Средняя | Не начата |                                                |                                 |  |  |
+| 82 | [Clone Graph](https://neetcode.io/problems/clone-graph/question?list=neetcode150) | 🟡 Средняя | Не начата |                                                |                                 |  |  |
+| 83 | [Walls And Gates](https://neetcode.io/problems/islands-and-treasure/question?list=neetcode150) | 🟡 Средняя | Не начата |                                                |                                 |  |  |
+| 84 | [Rotting Oranges](https://neetcode.io/problems/rotting-fruit/question?list=neetcode150) | 🟡 Средняя | Не начата |                                                |                                 |  |  |
+| 85 | [Pacific Atlantic Water Flow](https://neetcode.io/problems/pacific-atlantic-water-flow/question?list=neetcode150) | 🟡 Средняя | Не начата |                                                |                                 |  |  |
+| 86 | [Surrounded Regions](https://neetcode.io/problems/surrounded-regions/question?list=neetcode150) | 🟡 Средняя | Не начата |                                                |                                 |  |  |
+| 87 | [Course Schedule](https://neetcode.io/problems/course-schedule/question?list=neetcode150) | 🟡 Средняя | Не начата |                                                |                                 |  |  |
+| 88 | [Course Schedule II](https://neetcode.io/problems/course-schedule-ii/question?list=neetcode150) | 🟡 Средняя | Не начата |                                                |                                 |  |  |
+| 89 | [Graph Valid Tree](https://neetcode.io/problems/valid-tree/question?list=neetcode150) | 🟡 Средняя | Не начата |                                                |                                 |  |  |
+| 90 | [Number of Connected Components In An Undirected Graph](https://neetcode.io/problems/count-connected-components/question?list=neetcode150) | 🟡 Средняя | Не начата |                                                |                                 |  |  |
+| 91 | [Redundant Connection](https://neetcode.io/problems/redundant-connection/question?list=neetcode150) | 🟡 Средняя | Не начата |                                                |                                 |  |  |
+| 92 | [Word Ladder](https://neetcode.io/problems/word-ladder/question?list=neetcode150) | 🔴 Сложная | Не начата |                                                |                                 |  |  |
 
 ## Advanced Graphs — 6
 

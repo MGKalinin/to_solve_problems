@@ -64,12 +64,12 @@ NeetCode 150 — это исходный Blind 75 и ещё 75 задач. Тр�
 ## Two Pointers — 5
 
 | № | Задача | Сложность | Статус |       Дата       | Степень помощи | Повторить | Заметка |
-|:--:|:--|:--:|:--|:----------------:|:--|:--:|:--|
-| 10 | [Valid Palindrome](https://neetcode.io/problems/is-palindrome/question?list=neetcode150) | 🟢 Лёгкая | Не начата |                  |  |  |  |
-| 11 | [Two Sum II Input Array Is Sorted](https://neetcode.io/problems/two-integer-sum-ii/question?list=neetcode150) | 🟡 Средняя | Не начата |                  |  |  |  |
-| 12 | [3Sum](https://neetcode.io/problems/three-integer-sum/question?list=neetcode150) | 🟡 Средняя | in progress | ✗ 15.10.2026<br>✗ 16.10.2026 |  | да | не понял как реализовать алгоритм |
-| 13 | [Container With Most Water](https://neetcode.io/problems/max-water-container/question?list=neetcode150) | 🟡 Средняя | Не начата |                  |  |  |  |
-| 14 | [Trapping Rain Water](https://neetcode.io/problems/trapping-rain-water/question?list=neetcode150) | 🔴 Сложная | Не начата |                  |  |  |  |
+|:--:|:--|:--:|:--|:----------------:|:---------------|:--:|:--|
+| 10 | [Valid Palindrome](https://neetcode.io/problems/is-palindrome/question?list=neetcode150) | 🟢 Лёгкая | Не начата |                  |                |  |  |
+| 11 | [Two Sum II Input Array Is Sorted](https://neetcode.io/problems/two-integer-sum-ii/question?list=neetcode150) | 🟡 Средняя | Не начата |                  |                |  |  |
+| 12 | [3Sum](https://neetcode.io/problems/three-integer-sum/question?list=neetcode150) | 🟡 Средняя | in progress | ✗ 15.10.2026<br>✗ 16.10.2026 | с подсказками  | да | не понял как реализовать алгоритм |
+| 13 | [Container With Most Water](https://neetcode.io/problems/max-water-container/question?list=neetcode150) | 🟡 Средняя | Не начата |                  |                |  |  |
+| 14 | [Trapping Rain Water](https://neetcode.io/problems/trapping-rain-water/question?list=neetcode150) | 🔴 Сложная | Не начата |                  |                |  |  |
 
 ## Sliding Window — 6
 

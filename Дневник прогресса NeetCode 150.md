@@ -178,23 +178,23 @@ NeetCode 150 — это исходный Blind 75 и ещё 75 задач. Тр�
 
 ## Graphs — 15
 
-| № | Задача | Сложность | Статус      |                      Дата                      | Степень помощи  | Повторить | Заметка          |
-|:--:|:--|:--:|:------------|:----------------------------------------------:|:----------------|:--:|:-----------------|
-| 80 | [Number of Islands](https://neetcode.io/problems/count-number-of-islands/question?list=neetcode150) | 🟡 Средняя | in progress | ✗ 15.10.2026 <br> ✗ 16.10.2026<br>✗ 18.10.2026 | мелкие подсказки| да |                  |
-| 80.1 | [Flood Fill](https://neetcode.io/problems/flood-fill/question) | 🟢 Лёгкая |      in progress       |         ✗ 19.10.2026 <br>✗ 20.10.2026          |                 |  | мелкие подсказки |
-| 80.2 | [Island Perimeter](https://neetcode.io/problems/island-perimeter/question?list=neetcode250) | 🟢 Лёгкая | Не начата   |                                                |                 |  | Решить через BFS |
-| 81 | [Max Area of Island](https://neetcode.io/problems/max-area-of-island/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                |                 |  |                  |
-| 82 | [Clone Graph](https://neetcode.io/problems/clone-graph/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                |                 |  |                  |
-| 83 | [Walls And Gates](https://neetcode.io/problems/islands-and-treasure/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                |                 |  |                  |
-| 84 | [Rotting Oranges](https://neetcode.io/problems/rotting-fruit/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                |                 |  |                  |
-| 85 | [Pacific Atlantic Water Flow](https://neetcode.io/problems/pacific-atlantic-water-flow/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                |                 |  |                  |
-| 86 | [Surrounded Regions](https://neetcode.io/problems/surrounded-regions/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                |                 |  |                  |
-| 87 | [Course Schedule](https://neetcode.io/problems/course-schedule/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                |                 |  |                  |
-| 88 | [Course Schedule II](https://neetcode.io/problems/course-schedule-ii/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                |                 |  |                  |
-| 89 | [Graph Valid Tree](https://neetcode.io/problems/valid-tree/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                |                 |  |                  |
-| 90 | [Number of Connected Components In An Undirected Graph](https://neetcode.io/problems/count-connected-components/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                |                 |  |                  |
-| 91 | [Redundant Connection](https://neetcode.io/problems/redundant-connection/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                |                 |  |                  |
-| 92 | [Word Ladder](https://neetcode.io/problems/word-ladder/question?list=neetcode150) | 🔴 Сложная | Не начата   |                                                |                 |  |                  |
+| № | Задача | Сложность | Статус      |                       Дата                        | Степень помощи  |    Повторить     | Заметка          |
+|:--:|:--|:--:|:------------|:-------------------------------------------------:|:----------------|:----------------:|:-----------------|
+| 80 | [Number of Islands](https://neetcode.io/problems/count-number-of-islands/question?list=neetcode150) | 🟡 Средняя | in progress |  ✗ 15.10.2026 <br> ✗ 16.10.2026<br>✗ 18.10.2026   | мелкие подсказки|        да        |                  |
+| 80.1 | [Flood Fill](https://neetcode.io/problems/flood-fill/question) | 🟢 Лёгкая | ✅ Принято | ✗ 19.10.2026 <br>✗ 20.10.2026<br>✅ 22.10.2026<br> |                 | да<br>29.10.2026 |  |
+| 80.2 | [Island Perimeter](https://neetcode.io/problems/island-perimeter/question?list=neetcode250) | 🟢 Лёгкая | Не начата   |                                                   |                 |                  | Решить через BFS |
+| 81 | [Max Area of Island](https://neetcode.io/problems/max-area-of-island/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                   |                 |                  |                  |
+| 82 | [Clone Graph](https://neetcode.io/problems/clone-graph/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                   |                 |                  |                  |
+| 83 | [Walls And Gates](https://neetcode.io/problems/islands-and-treasure/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                   |                 |                  |                  |
+| 84 | [Rotting Oranges](https://neetcode.io/problems/rotting-fruit/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                   |                 |                  |                  |
+| 85 | [Pacific Atlantic Water Flow](https://neetcode.io/problems/pacific-atlantic-water-flow/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                   |                 |                  |                  |
+| 86 | [Surrounded Regions](https://neetcode.io/problems/surrounded-regions/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                   |                 |                  |                  |
+| 87 | [Course Schedule](https://neetcode.io/problems/course-schedule/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                   |                 |                  |                  |
+| 88 | [Course Schedule II](https://neetcode.io/problems/course-schedule-ii/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                   |                 |                  |                  |
+| 89 | [Graph Valid Tree](https://neetcode.io/problems/valid-tree/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                   |                 |                  |                  |
+| 90 | [Number of Connected Components In An Undirected Graph](https://neetcode.io/problems/count-connected-components/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                   |                 |                  |                  |
+| 91 | [Redundant Connection](https://neetcode.io/problems/redundant-connection/question?list=neetcode150) | 🟡 Средняя | Не начата   |                                                   |                 |                  |                  |
+| 92 | [Word Ladder](https://neetcode.io/problems/word-ladder/question?list=neetcode150) | 🔴 Сложная | Не начата   |                                                   |                 |                  |                  |
 
 ## Advanced Graphs — 6
 
